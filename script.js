@@ -6,7 +6,7 @@ function contar() {
   let res = document.querySelector('div#res')
   
 
-  if (inicio.value.length ==0 || fim.value.length == 0 || passo.value.length == 0) {
+  if (inicio.value.length == 0 || fim.value.length == 0 || passo.value.length == 0) {
     alert('[ERRO] faltam dados!')
   }else {
 
